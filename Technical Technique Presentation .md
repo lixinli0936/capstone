@@ -1,37 +1,32 @@
-# Technical Technique Presentation Proposal
+# Technical Technique Presentation Proposal - Loan Status Prediction
 
 ## Introduction
-- Brief overview of the presentation topic
-- Importance of the technical technique in Team Prediction
-- Objectives of the presentation
+- The dataset consists of relevant data submitted by applicants seeking housing loans from banks, including personal information, income, credit history, loan amount, etc., as well as the bank's approval status for the application.
+- Our goal is to train and fine-tune a prediction model for approval results based on bank loan application data and compare the predicted results with sample data to measure the accuracy of the prediction model.
 
 ## Background
-- Current state of technology in the domain
-- Challenges and opportunities
-
-## Presentation Candidate
-- Name and background of the presenter
-- Relevant experience and expertise
+- Learned and practiced predictive analysis methods and models based on the low-code machine learning library Pycaret during the course.
 
 ## Sample Data Selection
-- Criteria for selecting sample data
-- Sources of sample data
-- Relevance of the data to the demonstration
+- The dataset contains 614 records with 13 fields. Excluding the ID field, there are 12 usable fields, with the loan_status serving as the target for prediction.
+- 20% of the dataset will be sampled as unseen data for validating the prediction model's results, while the remaining 80% will be used for training the prediction model.
 
 ## Technical Technique Demonstration
-- Description of the technical technique
-- Steps for applying the technique to the sample data
-- Expected outcomes and benefits
+- Data processing steps include handling missing values and splitting the dataset.
+- Building a prediction model pipeline using Pycaret.
+- Comparing the predicted results with actual data.
 
 ## Implementation Plan
-- Timeline for the preparation of the presentation
-- Resources required (software, hardware, etc.)
-- Practice sessions and dry runs
+- Download the dataset.
+- Install relevant libraries such as Pycaret, Scikit-learn, and Joblib.
+- Load the dataset and perform data processing.
+- Select and train the prediction model.
+- Predict using unseen data and compare with actual data.
 
 ## Conclusion
-- Summary of what will be achieved with the presentation
-- Call to action for the audience
+- Predicted data always deviates from actual occurrences. The process of training and testing prediction models is aimed at narrowing this gap.
+- Comprehensive and authentic data serve as crucial foundations for reliable prediction results.
 
 ## Appendices
-- References to technical literature
-- Links to resources for further reading
+Loan Dataset:
+https://www.kaggle.com/datasets/burak3ergun/loan-data-set
